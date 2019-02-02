@@ -7,12 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
-
-
-
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
+
+
 
 <body>
     <header>
@@ -24,142 +23,295 @@
     </header>
 
 
-    <article class="container">
-        <!-----------alert------------->
-        <div class="row hidden-xs">
-            <div class="col-xs-12">
-                <div class="alert alert-warning">
-                    <strong>Invite a friend and get £10 off on your first order</strong>
+    <!-----------Nav------------->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid alert-container hidden-xs">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="site-wide-alert alert alert-warning">
+                        <strong>Invite a friend and get £10 off on your first order</strong>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="container-fluid">
+            <!--Logo-->
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand">
+                    Marmita
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-        <!----------/.alert-------------->
+
+            <!--Navbar-->
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li class="visible-xs"><a href="">Sign In</a></li>
+                    <li class="visible-xs"><a href="">Sign Up</a></li>
+                </ul>
+
+                <!--signin-->
+                <div class="navbar-header navbar-right hidden-xs">
+                    <a href="/login" class="btn btn-default navbar-btn" data-toggle='modal' data-target='#signInModal'>Sign In</a>
+                    <a href="/login" class="btn btn-default navbar-btn" data-toggle='modal' data-target='#signUpModal'>Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!----------/.Nav-------------->
 
 
-        <!-----------callout------------->
+
+
+
+
+    <!-----------callout------------->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-xs-12">
-                <section class="callout text-center">
-                    <h1> Convenient<br> Healthy<br> Tasty<br></h1>
-                    <p class="lead"> Homemade Food Delivered To Your Door</p>
+                <section class="callout  text-center">
+                    <h1> Marmita</h1>
+                    <p class="lead">Convenient<br> Healthy<br> Tasty<br>Homemade Food Delivered To Your Door</p>
                 </section>
             </div>
         </div>
-        <!----------/.callout-------------->
-        <hr>
+    </div>
+    <!----------/.callout-------------->
+   
 
 
-        <!-----------callout-icons------------->
-        <section class="callout-icons">
-            <div class="row">
-                <div class="col-xs-12 col-md-4">
-                    <div class="callout-icons">
-                        <p> Order healthy and ready-to-eat meals online</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <div class="callout-icons">
-                        <p> Delivered to greater london</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <div class="callout-icons">
-                        <p> We deliver to your door in 1 working day</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!----------/.callout-icons-------------->
 
 
-        <!-----------difference------------->
-        <section class="difference">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="page-header">
-                        <h3>What's Different About Us?</h3>
+    <!-----------icons------------->
+    <div class="container-wrapper">
+        <div class="container icons-container content-container">
+            <hr class="block-divider">
+            <section class="icons">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="icons">
+                            <p> Order healthy and ready-to-eat meals online</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="icons">
+                            <p> Delivered to greater london</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="icons">
+                            <p> We deliver to your door in 1 working day</p>
+                            <hr class="block-divider">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
+            </section>
+        </div>
+    </div>
+    <!----------/.icons-------------->
+
+
+
+
+
+    <!-----------difference------------->
+    <div class="container-wrapper container-wrapper--orange">
+        <div class="container difference-container content-container">
+            <section class="difference">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h3>What's Different About Us?</h3>
+                            <hr class="block-divider">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="difference">
+                            <p>Organic products</p>
+                        </div>
+                    </div>
                     <div class="difference">
-                        <p>Organic products</p>
+                        <div class="col-xs-12 col-md-6">
+                            <p>With quick-freeze we keep the food flavour, texture and nutrients for longer</p>
+                        </div>
                     </div>
-                </div>
-                <div class="difference">
-                    <div class="col-xs-12 col-md-6">
-                        <p>With quick-freeze we keep the food flavour, texture and nutrients for longer</p>
+                    <div class="difference">
+                        <div class="col-xs-12 col-md-6">
+                            <p>No food preservatives, coloring agents and additives</p>
+                        </div>
                     </div>
-                </div>
-                <div class="difference">
-                    <div class="col-xs-12 col-md-6">
-                        <p>No food preservatives, coloring agents and additives</p>
-                    </div>
-                </div>
 
-                <div class="difference">
-                    <div class="col-xs-12 col-md-6">
-                        <p>A team of chefs and nutricionist are always creating new amazing recepies</p>
+                    <div class="difference">
+                        <div class="col-xs-12 col-md-6">
+                            <p>A team of chefs and nutricionist are always creating new amazing recepies</p>
+                        </div>
                     </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!----------/.difference-------------->
+
+
+
+
+
+    <!-----------quotes------------->
+    <div class="container-wrapper container-wrapper--white">
+        <div class="container quotes-container content-container">
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h3> What People are Saying About Us?</h3>
+                            <hr class="block-divider">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="media">
+                            <div class="media-left hidden-xs">
+                                <img src="assets/images/woman.jpg" class="img-circle media-object" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="quotes">
+                                    <p>It made my live so much easier!</p>
+                                    <footer>Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6">
+                        <div class="media">
+                            <div class="media-left hidden-xs">
+                                <img src="assets/images/man.jpg" class="img-circle media-object" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="quotes">
+                                    <p>I've never been healthier!</p>
+                                    <footer>John Bloggs on <cite title="Twitter">Twitter</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!----------/.quotes-------------->
+
+
+
+    <!------------ Modal --------------->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
-        </section>
-        <!----------/.difference-------------->
-
-
-        <!-----------quotes------------->
-        <section class="quotes">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="page-header">
-                        <h3> What People are Saying About Us?</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                            <img src="assets/images/woman.jpg" class="img-circle media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="quotes">
-                                <p>It made my live so much easier!</p>
-                                <footer>Jane Doe on <cite title="Twitter">Twitter</cite></footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                            <img src="assets/images/man.jpg" class="img-circle media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="quotes">
-                                <p>I've never been healthier!</p>
-                                <footer>John Bloggs on <cite title="Twitter">Twitter</cite></footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!----------/.quotes-------------->
-
-
-
-
-
-    </article>
-
+        </div>
+    </div>
     <footer>
 
     </footer>
+
+
+
+    <!------------- Modal --------------->
+
+    <!----Sign In---->
+
+    <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Sign In</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember Me </label>
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---- Sign Up---->
+
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Sign Up for Marmita</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

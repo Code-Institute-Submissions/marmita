@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    color: #ef7540;
+    font-weight: bold;
+    margin-top: -200px;
+    font-size: 10vw;
+}
+
+
+.lead {
+    color: #c6db39;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+/*Navbar*/
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: ;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 80px;
+    background-color: #ef7540;
+    color: white;
+}
+
+.navbar-btn:hover {
+    color: #ef7540;
+    background-color: white;
+    border-color: white;
+}
+
+.navbar-btn:focus {
+    color: white;
+    background-color: #ef7540;
+}
+
+
+/*Page Headers*/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h3 {
+    margin-top: 0;
+}
+
+
+/*Containers*/
+
+
+.callout-container {
+    height: 80vh;
+    background: url(../../assets/images/background.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-wrapper--orange {
+    background-color: #ef7540;
+}
+
+.container-wrapper--green {
+    background-color: #c6db39;
+}
+
+.container-wrapper--white {
+    background-color: white;
+}
+
+
+/*Icons*/
+
+.icons {
+    text-align: center;
+}
+
+
+/*Difference*/
+
+.difference p {
+    margin-bottom: 40px;
+}
+
+
+/*Quotes*/
+
+blockquote.quotes {
+    border-left: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 40px;
+}
+
+
+/*Block Dividers*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+
+/*alert*/
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #506103;
+    background-color: #c0dd00;
+    border-color: #b8e000;
+    padding: 5px 15px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
