@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 
 
+
 body {
     font-family: 'Quicksand', sans-serif;
 }
@@ -249,10 +250,6 @@ blockquote.quotes {
     font-size: smaller;
 }
 
-.quotes-container {
-    text-align: center;
-}
-
 
 /*-----------------------Block Dividers-----------------------*/
 
@@ -285,10 +282,10 @@ blockquote.quotes {
 /*-----------------------About Us-----------------------*/
 
 .about {
-    
+    margin: 0;
 }
 
-.about h3 {
+h3 {
     letter-spacing: 0.5px;
     font-size: 20px;
     text-transform: uppercase;
@@ -298,20 +295,117 @@ blockquote.quotes {
     width: 50%;
 }
 
-.color-mission h3{
+.statement h3 {
+    font-weight: bold;
+}
+
+
+.about p {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#about-p {
+    padding-top: 40px;
+}
+
+.about-img {
+    float: right;
+    border-radius: 17px;
+    margin-left: 10px;
+}
+
+.about-mvv {
+    padding-top: 40px;
+}
+
+
+.color-mission h3 {
     color: #ef4640;
     border-color: #ef4640;
 }
 
-.color-vision h3{
+.color-vision h3 {
     color: #ef7540;
     border-color: #ef7540;
 }
 
-.color-values h3{
+.color-values h3 {
     color: #efa440;
-    border-color:#efa440;
+    border-color: #efa440;
 }
+
+
+/*-----------------------Food Menu-----------------------*/
+
+.food-area {
+    padding: 130px 0;
+}
+
+.food-area p {
+    font-size: 16px;
+}
+
+@media .food-container (min-width: 1200px) {
+    max-width: 1140px;
+}
+
+.food-session-top {
+    margin-bottom: 80px;
+    box-sizing: border-box;
+}
+
+
+.food-session-top h3 {
+    color: #ef7540;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.food-container p {
+    padding-top: 20px;
+}
+
+.style-change {
+    font-size: large;
+    font-weight: bold;
+    color: #ef7540;
+    font-style: italic;
+}
+
+.single-food {
+    box-sizing: border-box;
+    display: block;
+}
+
+.food-margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.food-img {
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.food-content {
+    box-sizing: border-box;
+    display: block;
+    width: 360px;
+    padding: 30px;
+    background: #f9f9ff;
+}
+
+.food-content h5 {
+    text-transform: capitalize;
+    font-size: 20px !important;
+    font-weight: 700;
+}
+
 
 
 /*-----------------------Footer-----------------------*/
