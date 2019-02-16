@@ -81,7 +81,7 @@
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-xs-12">
-                <section class="callout  text-center">
+                <section class="callout text-center hidden-xs">
                     <h1> Marmita</h1>
                     <p class="lead">Convenient<br> Healthy<br> Tasty<br>Homemade Food Delivered To Your Door</p>
                 </section>
@@ -90,22 +90,33 @@
     </div>
     <!----------/.callout-------------->
 
+
+    <!-----------Contact Us------------->
+
     <div class="container-wrapper">
-        <session class="food-area">
-            <div class="container food-container content-container">
+        <div class="container content-container">
+            <session class="contact-area">
                 <div class="row">
                     <div class="col-md-5">
-                        <div class="session-top-test">
-                            <h3 class="style-change">Our Food</h3>
-                            <p>We also make personalized meals. Just contact with your request!</p>
+                        <div class="page-header contact-session-top">
+                            <h2>Contact Us</h2>
+                            <hr class="block-divider">
                         </div>
                     </div>
                 </div>
-            </div>
-        </session>
+                <div class="center-form">
+                    <div class="row">
+                        <form>
+                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                            <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Do not hesitate to send us your food request, food iquire or general question." required></textarea>
+                            <button type="submit" class="contact-btn btn btn-success center-block">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </session>
+        </div>
     </div>
-
-
 
 
     <!-------------- Footer-------------->

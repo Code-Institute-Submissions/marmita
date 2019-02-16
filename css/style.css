@@ -14,7 +14,8 @@ h1 {
 
 @media only screen and (max-width: 768px) {
     h1 {
-        font-size: 80px;
+        font-size: 70px;
+        padding-top: 325px;
     }
 }
 
@@ -239,7 +240,7 @@ h4 {
     font-weight: bold;
 }
 
-.difference-header h2{
+.difference-header h2 {
     color: white!important;
 }
 
@@ -324,7 +325,7 @@ h3 {
     margin-left: 10px;
 }
 
-.about-video{
+.about-video {
     padding-bottom: 20px;
 }
 
@@ -359,13 +360,8 @@ h3 {
     font-size: 16px;
 }
 
-@media .food-container only screen and (min-width: 1200px) {
-    max-width: 1140px;
-}
-
 .food-session-top h4 {
     padding-top: 20px;
-    padding-bottom: 20px;
     line-height: 1.5;
 }
 
@@ -377,7 +373,7 @@ h3 {
     color: #ef7540;
     font-style: italic;
     font-weight: bold;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .single-food {
@@ -401,7 +397,8 @@ h3 {
 .food-content {
     box-sizing: border-box;
     display: block;
-    width: 360px;
+    width: auto;
+    height: 200px;
     padding: 30px;
     background: #f9f9ff;
 }
@@ -416,6 +413,34 @@ h3 {
     background: #ffdbcc;
 }
 
+
+/*-----------------------Contact Us-----------------------*/
+
+.contact-area {
+    padding: 130px 0;
+}
+
+.contact-session-top h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.contact-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 80px;
+    background-color: #ef7540;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
 
 /*-----------------------Footer-----------------------*/
 
@@ -466,4 +491,12 @@ footer h5 {
 }
 
 
+/*.section-column{
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
 
+.row-table{
+    display: table;
+}*/
