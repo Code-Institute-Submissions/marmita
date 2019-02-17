@@ -103,6 +103,7 @@ h4 {
     color: #ef7540;
     background-color: white;
     border-color: white;
+    transition: 0.5s;
 }
 
 .navbar-default .navbar-collapse {
@@ -117,7 +118,7 @@ h4 {
 
 @media only screen and (max-width: 768px) {
     .navbar-default .navbar-collapse {
-        background-color: white;
+        background-color: #636363
     }
 }
 
@@ -143,6 +144,9 @@ h4 {
     background: rgba(0, 0, 0, 0.3);
     height: 50px;
     transition: 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 /*-----------------------Menu Item-----------------------*/
@@ -423,6 +427,10 @@ h3 {
 
 .food-content:hover {
     background: #ffdbcc;
+    transition: 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .menu-btn,
@@ -430,12 +438,20 @@ h3 {
     border: 0;
     background-color: #ef7540;
     color: white;
+    transition: 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s
 }
 
 .menu-btn:hover {
     color: #ef7540;
     background-color: white;
     border-color: white;
+    transition: 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s
 }
 
 .menu-btn{
@@ -477,7 +493,8 @@ h3 {
 /*-----------------------Footer-----------------------*/
 
 footer {
-    background-color: #c6db39;
+    color: #c6db39;
+    background-color: black;
     min-height: 150px;
     text-align: center;
     margin: 0;
@@ -504,10 +521,10 @@ footer {
     line-height: 7px;
     color: #ef7540;
     background: black;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .social-links li a i:hover {
