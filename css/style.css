@@ -379,6 +379,7 @@ h3 {
 .single-food {
     box-sizing: border-box;
     display: block;
+    width: 350px;
 }
 
 .food-margin {
@@ -392,6 +393,7 @@ h3 {
     overflow: hidden;
     vertical-align: middle;
     border-style: none;
+    height: 215px;
 }
 
 .food-content {
