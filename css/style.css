@@ -15,7 +15,6 @@ h1 {
 @media only screen and (max-width: 768px) {
     h1 {
         font-size: 70px;
-        padding-top: 325px;
     }
 }
 
@@ -116,6 +115,13 @@ h4 {
 
 }
 
+@media only screen and (max-width: 768px) {
+    .navbar-default .navbar-collapse {
+        background-color: white;
+    }
+}
+
+
 
 /*----------Nav Overlay----------*/
 
@@ -128,6 +134,7 @@ h4 {
 
 .navbar-collapse li {
     height: 100%;
+
 }
 
 /*----------Nav sweep to bottom----------*/
@@ -135,6 +142,7 @@ h4 {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.3);
     height: 50px;
+    transition: 0.5s;
 }
 
 /*-----------------------Menu Item-----------------------*/
@@ -206,6 +214,8 @@ h4 {
 .container-wrapper--white {
     background-color: white;
 }
+
+/*-----------------------Menu Btn-----------------------*/
 
 
 /*-----------------------Icons-----------------------*/
@@ -393,7 +403,7 @@ h3 {
     overflow: hidden;
     vertical-align: middle;
     border-style: none;
-    height: 215px;
+    height: 260px;
 }
 
 .food-content {
@@ -415,6 +425,26 @@ h3 {
     background: #ffdbcc;
 }
 
+.menu-btn,
+.menu-btn:focus {
+    border: 0;
+    background-color: #ef7540;
+    color: white;
+}
+
+.menu-btn:hover {
+    color: #ef7540;
+    background-color: white;
+    border-color: white;
+}
+
+.menu-btn{
+    border: 0;
+    border-radius: 16px;
+    width: 210px;
+    background-color: #ef7540;
+    color: white;
+}
 
 /*-----------------------Contact Us-----------------------*/
 
