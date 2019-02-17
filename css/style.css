@@ -273,6 +273,11 @@ blockquote.quotes {
     font-size: smaller;
 }
 
+.media img{
+    height: 110px;
+    width: 110px;
+}
+
 
 /*-----------------------Block Dividers-----------------------*/
 
@@ -557,4 +562,5 @@ footer h5 {
 .contact-item i {
     padding-right: 15px;
     font-size: 25px;
+    color: #ef7540
 }
