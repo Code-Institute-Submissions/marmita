@@ -221,7 +221,6 @@ h4 {
 
 /*-----------------------Menu Btn-----------------------*/
 
-
 /*-----------------------Icons-----------------------*/
 
 .icons {
@@ -309,7 +308,7 @@ blockquote.quotes {
     margin: 0;
 }
 
-h3 {
+.about h3 {
     letter-spacing: 0.5px;
     font-size: 20px;
     text-transform: uppercase;
@@ -454,7 +453,7 @@ h3 {
     -o-transition: all 0.5s
 }
 
-.menu-btn{
+.menu-btn {
     border: 0;
     border-radius: 16px;
     width: 210px;
@@ -540,12 +539,22 @@ footer h5 {
 }
 
 
-/*.section-column{
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
+/*----------------New contact------------------*/
+
+.order h2 {
+    text-align: center!important;
 }
 
-.row-table{
-    display: table;
-}*/
+.contact-item {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.contact-container p {
+    padding-top: 10px;
+}
+
+.contact-item i {
+    padding-right: 15px;
+    font-size: 25px;
+}
