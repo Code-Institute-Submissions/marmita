@@ -12,6 +12,11 @@ h1 {
     font-size: 125px;
 }
 
+header .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 @media only screen and (max-width: 768px) {
     h1 {
         font-size: 70px;
@@ -245,12 +250,14 @@ h4 {
 .difference i {
     padding: 15px;
     font-size: 50px;
+    color: #333;
 }
 
 .difference p {
     margin-bottom: 40px;
     font-size: 15px;
     font-weight: bold;
+    color: white;
 }
 
 .difference-header h2 {
@@ -273,9 +280,13 @@ blockquote.quotes {
     font-size: smaller;
 }
 
-.media img{
+.media-quote img{
     height: 110px;
     width: 110px;
+}
+
+.media-object {
+    width: 350px;
 }
 
 
@@ -368,7 +379,14 @@ blockquote.quotes {
 }
 
 
-/*-----------------------Food Menu-----------------------*/
+/*-----------------------Videos-----------------------*/
+
+ .about-video{
+     width: 350px;
+ }
+ 
+ 
+ /*-----------------------Food Menu-----------------------*/
 
 .food-area {
     padding: 130px 0;
@@ -564,3 +582,4 @@ footer h5 {
     font-size: 25px;
     color: #ef7540
 }
+
