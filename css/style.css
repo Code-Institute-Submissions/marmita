@@ -99,7 +99,8 @@ h4 {
 .navbar-btn:focus {
     border: 0;
     border-radius: 16px;
-    width: 80px;
+    width: 130px;
+    margin-right: 10px;
     background-color: #ef7540;
     color: white;
 }
@@ -224,7 +225,8 @@ h4 {
     background-color: white;
 }
 
-/*-----------------------Menu Btn-----------------------*/
+
+
 
 /*-----------------------Icons-----------------------*/
 
@@ -289,6 +291,41 @@ blockquote.quotes {
 .media-object {
     width: 350px;
 }
+
+
+/*-----------------------Menu Button Index-----------------------*/
+
+.btn-index {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 16px;
+    width: 210px;
+    background-color: white;
+    color: #ef7540;
+}
+
+.btn-index,
+.btn-index:focus {
+    border: 0;
+    background-color: white;
+    color: #ef7540;
+    transition: 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s
+}
+
+.menu-btn:hover {
+    color: #ef7540;
+    background-color: white;
+    border-color: white;
+    transition: 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s
+}
+
 
 
 /*-----------------------Block Dividers-----------------------*/
@@ -485,17 +522,11 @@ blockquote.quotes {
     color: white;
 }
 
-/*-----------------------Contact Us-----------------------*/
-
-.contact-area {
-    padding: 130px 0;
+.difference-header h2 {
+    color: white!important;
 }
 
-.contact-session-top h4 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 1.5;
-}
+/*-----------------------Contact Us/ Form-----------------------*/
 
 .contact-btn {
     border: 0;
@@ -507,10 +538,40 @@ blockquote.quotes {
     margin-bottom: 20px;
 }
 
+.contact-btn:hover {
+    background-color: #c6db39;
+    color: white;
+}
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+}
+
+.order h2,
+.p-payment {
+    text-align: center!important;
+}
+
+
+.contact-item {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.contact-container p {
+    padding-top: 10px;
+}
+
+.contact-item i {
+    padding-right: 15px;
+    font-size: 25px;
+    color: #ef7540
+}
+
+.formLabel {
+    padding-top: 10px;
 }
 
 /*-----------------------Footer-----------------------*/
@@ -563,24 +624,5 @@ footer h5 {
 }
 
 
-/*----------------New contact------------------*/
 
-.order h2 {
-    text-align: center!important;
-}
-
-.contact-item {
-    display: block;
-    padding-bottom: 30px;
-}
-
-.contact-container p {
-    padding-top: 10px;
-}
-
-.contact-item i {
-    padding-right: 15px;
-    font-size: 25px;
-    color: #ef7540
-}
 
