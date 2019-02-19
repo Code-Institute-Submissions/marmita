@@ -232,7 +232,7 @@ h4 {
 
 .icons {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .icons i {
@@ -431,10 +431,6 @@ blockquote.quotes {
 
 
 /*-----------------------Food Menu-----------------------*/
-
-.food-area {
-    padding: 130px 0;
-}
 
 .food-area p {
     font-size: 16px;
