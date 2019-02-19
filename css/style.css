@@ -283,6 +283,7 @@ blockquote.quotes {
 .media-quote img{
     height: 110px;
     width: 110px;
+    margin-bottom: 10px;
 }
 
 .media-object {
