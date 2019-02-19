@@ -12,7 +12,7 @@ h1 {
     font-size: 125px;
 }
 
-header .row{
+header .row {
     margin-left: 0;
     margin-right: 0;
 }
@@ -232,6 +232,7 @@ h4 {
 
 .icons {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .icons i {
@@ -282,7 +283,7 @@ blockquote.quotes {
     font-size: smaller;
 }
 
-.media-quote img{
+.media-quote img {
     height: 110px;
     width: 110px;
     margin-bottom: 10px;
@@ -293,16 +294,21 @@ blockquote.quotes {
 }
 
 
-/*-----------------------Menu Button Index-----------------------*/
+/*-----------------------Menu Index-----------------------*/
+
+.menu-index {
+    text-align: center;
+}
 
 .btn-index {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 15px;
     border: 0;
     border-radius: 16px;
     width: 210px;
     background-color: white;
     color: #ef7540;
+    font-weight: bold;
 }
 
 .btn-index,
@@ -419,12 +425,12 @@ blockquote.quotes {
 
 /*-----------------------Videos-----------------------*/
 
- .about-video{
-     width: 350px;
- }
- 
- 
- /*-----------------------Food Menu-----------------------*/
+.about-video {
+    width: 350px;
+}
+
+
+/*-----------------------Food Menu-----------------------*/
 
 .food-area {
     padding: 130px 0;
@@ -522,9 +528,6 @@ blockquote.quotes {
     color: white;
 }
 
-.difference-header h2 {
-    color: white!important;
-}
 
 /*-----------------------Contact Us/ Form-----------------------*/
 
@@ -622,7 +625,3 @@ a:link {
 footer h5 {
     font-weight: bold;
 }
-
-
-
-
