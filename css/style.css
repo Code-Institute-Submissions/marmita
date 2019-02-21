@@ -225,6 +225,10 @@ h4 {
     background-color: white;
 }
 
+.callout h1{
+    padding-top: 10px;
+}
+
 
 
 
@@ -649,7 +653,3 @@ footer h5 {
     font-weight: bold;
 }
 
-.container {
-    padding-right: 0;
-    padding-left: 0;
-}
