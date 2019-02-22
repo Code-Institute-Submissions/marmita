@@ -1,10 +1,10 @@
-#Marmita Project (Milestone Project | Code Institute)
+# Marmita Project (Milestone Project | Code Institute)
 
 This project is a website for a small start-up that sells frozen homemade food. 
 In this website the user can see the food options and prices, check some videos, send their order and find the contact details to send food suggestions or inquires. They can also see the companies mission, vision and values.
 
 
-##UX
+## UX
 
 This website is intended for anyone who wants to eat healthy and don’t have time or energy to prepare homemade meals. On the website the user can find out what is the company’s purpose, choose their meals and find the company’s contact details.
 
@@ -26,8 +26,8 @@ She has 2 sons, is single and works full time. She is really stressed because sh
 He is 20 years old, works full time and is really overweight. He still lives with his parents but most of the time he ends up eating McDonalds instead of bringing homemade lunch to work. He thinks that he might start to eat heathier if he is paying for the food.
 
 
-##Features
-###Existing Features
+## Features
+### Existing Features
 
 • The **“Home”** page has four sections.
 
@@ -49,7 +49,7 @@ He is 20 years old, works full time and is really overweight. He still lives wit
 * Sign in and sign up forms.
 * A shopping cart where the customer can find the meals they have chosen directly on the “Our Menu” page.
 
-##Technologies Used
+## Technologies Used
 The technologies used were:
 
 [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
@@ -78,7 +78,7 @@ The technologies used were:
 * Local git repository was pushed to remote repository on GitHub and site was published using GitHub pages.  
 
 
-##Testing
+## Testing
 
 * The website was tested throughout the building of the project using the dev tools within the browser.
 
@@ -88,13 +88,13 @@ The technologies used were:
 
 * Contact form works as intended.
 
-##Deployment
+## Deployment
 
 This page has been deployed using GitHub Pages and can be viewed [here](https://mariana-stefani.github.io/marmita/)
 
-##Credits
+## Credits
 
-###Media
+### Media
 
 * All the photos used in this website were obtained from [Pixabay](https://pixabay.com).
 
@@ -103,7 +103,7 @@ This page has been deployed using GitHub Pages and can be viewed [here](https://
 * Videos *"assets/videos/grill.mp4"* and *"assets/videos/mushrooms.mp4"* were obtained from [videvo](https://www.videvo.net/)
 
 
-##Acknowledgements
+## Acknowledgements
 
 All my gratitude to my husband and family who always have supported me. 
 A big thank you to my mentor Simen Daehlin.
