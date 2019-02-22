@@ -37,7 +37,7 @@ header .row {
 }
 
 
-/*-----------------------Special Paddings/ Margins/ Text-----------------------*/
+/*-- Special Paddings/ Margins/ Text --*/
 
 h1,
 h2,
@@ -52,7 +52,7 @@ h4 {
 
 
 
-/*-----------------------Navbar-----------------------*/
+/*-- Navbar --*/
 
 .navbar {
     margin-bottom: 0;
@@ -130,7 +130,7 @@ h4 {
 
 
 
-/*----------Nav Overlay----------*/
+/*-- Nav Overlay --*/
 
 .nav-overlay {
     position: absolute;
@@ -144,7 +144,7 @@ h4 {
 
 }
 
-/*----------Nav sweep to bottom----------*/
+/*-- Nav sweep to bottom --*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.3);
@@ -155,7 +155,7 @@ h4 {
     -o-transition: all 0.5s;
 }
 
-/*-----------------------Menu Item-----------------------*/
+/*-- Menu Item --*/
 
 .menuitem {
     height: 50px;
@@ -182,7 +182,7 @@ h4 {
 }
 
 
-/*-----------------------Containers-----------------------*/
+/*-- Containers --*/
 
 .callout-container {
     height: 70vh;
@@ -225,14 +225,14 @@ h4 {
     background-color: white;
 }
 
-.callout h1{
+.callout h1 {
     padding-top: 10px;
 }
 
 
 
 
-/*-----------------------Icons-----------------------*/
+/*-- Icons --*/
 
 .icons {
     text-align: center;
@@ -251,12 +251,14 @@ h4 {
     font-weight: bold;
 }
 
-.icons-margin {
-    margin: 0;
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+    .icons-margin {
+        margin: 0;
+    }
 }
 
 
-/*Difference*/
+/*-- Difference --*/
 
 .difference i {
     padding: 15px;
@@ -276,7 +278,7 @@ h4 {
 }
 
 
-/*-----------------------Quotes-----------------------*/
+/*-- Quotes --*/
 
 blockquote.quotes {
     border-left: 0;
@@ -307,7 +309,7 @@ blockquote.quotes {
 }
 
 
-/*-----------------------Menu Index-----------------------*/
+/*-- Menu Index --*/
 
 .menu-index {
     text-align: center;
@@ -365,7 +367,7 @@ blockquote.quotes {
 }
 
 
-/*-----------------------Block Dividers-----------------------*/
+/*-- Block Dividers --*/
 
 .block-divider {
     width: 75px;
@@ -374,7 +376,7 @@ blockquote.quotes {
 }
 
 
-/*-----------------------alert-----------------------*/
+/*-- alert --*/
 
 .alert-container .col-xs-12 {
     padding-left: 0;
@@ -393,7 +395,7 @@ blockquote.quotes {
 }
 
 
-/*-----------------------About Us-----------------------*/
+/*-- About Us --*/
 
 .about {
     margin: 0;
@@ -458,14 +460,14 @@ blockquote.quotes {
 }
 
 
-/*-----------------------Videos-----------------------*/
+/*-- Videos --*/
 
 .about-video {
     width: 350px;
 }
 
 
-/*-----------------------Food Menu-----------------------*/
+/*-- Food Menu --*/
 
 .food-area p {
     font-size: 16px;
@@ -560,7 +562,7 @@ blockquote.quotes {
 }
 
 
-/*-----------------------Contact Us/ Form-----------------------*/
+/*-- Contact Us/ Form --*/
 
 .contact-btn {
     border: 0;
@@ -608,7 +610,7 @@ blockquote.quotes {
     padding-top: 10px;
 }
 
-/*-----------------------Footer-----------------------*/
+/*-- Footer --*/
 
 footer {
     color: #c6db39;
@@ -656,4 +658,3 @@ a:link {
 footer h5 {
     font-weight: bold;
 }
-
